@@ -1,0 +1,371 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>JANE BLOGLIFE</title>
+    <link rel="stylesheet" type="text/css" href="Jane.Bloglife.Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <section>
+
+        <div class="links">
+            <span><i class="fab fa-facebook-square"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-snapchat"></i></span>
+            <span><i class="fab fa-flickr"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-linkedin-in"></i></span>
+            <span class="search"><i class="fas fa-search"></i></span>
+        </div>
+
+    </section>
+
+    <section>
+
+        <header>
+            <h1>JANE BLOGLIFE</h1>
+            <h6>Welcome to the blog of <span>Jane's world</span></h6>
+        </header>
+
+    </section>
+
+    <section>
+
+        <img src="Image/Header/jane.jpg" alt="jane" style="max-width: 100%;" width="100%" height="893px">
+
+        <div class="image-content">
+            <h1>Jane's</h1>
+            <B>FASHION BLOG</B>
+            <div><button id="SUBSCRIBE" type="button">SUBSCRIBE</button></div>
+        </div>
+    </section>
+
+    <section id="blog-content">
+
+        <div class="left-blog-content">
+
+            <div class="card">
+
+                <div style="max-width: 100%; height: 73px;">
+                    <h3>TITLE HEADING</h3>
+                    <h5>Title description, <span>May 2, 2016</span></h5>
+                </div>
+
+                <img src="Image/Post/girlHat.jpg" alt="girlHat">
+
+                <p class="paragraph-1"><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                    magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+
+                <p class="paragraph-2">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+                <div class="card-1-btn">
+                    <button onclick="likeBtn(0)" class="left-btn"> <span><i class="fas fa-thumbs-up"></i></span>Like</button>
+                    <button onclick="displayReplies(0)" id="right-btn">Replies<span>1</span></button>
+                </div>
+                <div style="height: 170px; display: block;" class="replies">
+                    <hr>
+                    <div>
+
+                        <div class="replies-img"><img src="image/ProfilePic/avatar_smoke.jpg" alt="avatar_smoke"></div>
+
+                        <div class="replies-text">
+                            <h4>George <span>May 3, 2015, 6:32 PM</span></h4>
+                            <p>Great blog post! Following</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div style="max-width: 100%; height: 73px;">
+                    <h3>TITLE HEADING</h3>
+                    <h5>Title description, <span> April 23, 2016</span></h5>
+                </div>
+
+                <img src="Image/Post/man_hat.jpg" alt="man_hat">
+
+                <p class="paragraph-1"><strong>Hats!</strong> Hats! The trend this summer is hats for men!</p>
+
+                <p class="paragraph-2">Why stop at one hat when you can try a few different styles? As we mentioned above, fashion risks require some trial and error. Grab a few different styles and give them each a go to find out what works for you.</p>
+
+                <div class="card-1-btn">
+                    <button onclick="likeBtn(1)" class="left-btn"> <span><i class="fas fa-thumbs-up"></i></span>Like</button>
+                    <button onclick="displayReplies(1)" id="right-btn">Replies<span>2</span></button>
+                </div>
+                <div style="height: 315px; display: none;" class="replies">
+                    <hr>
+                    <div style="float: left;">
+                        <div class="replies-img"><img src="Image/ProfilePic/girl_train.jpg" alt="girl_train"></div>
+                        <div class="replies-text">
+                            <h4>Amber <span>April 26, 2015, 10:52 PM</span></h4>
+                            <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div style="float: left; margin-top: 16px;">
+                        <div class="replies-img"><img src="Image/ProfilePic/girl.jpg" alt="girl"></div>
+                        <div class="replies-text">
+                            <h4>Angie <span>April 23, 2015, 9:12 PM</span></h4>
+                            <p>Love hats!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div style="max-width: 100%; height: 73px;">
+                    <h3>TITLE HEADING</h3>
+                    <h5>Title description, <span>May 2, 2016</span></h5>
+                </div>
+
+                <img src="Image/Post/runway.jpg" alt="runway">
+
+                <p class="paragraph-1"><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p>
+
+                <p class="paragraph-2">Fashion Week continued in the Big Apple with much-anticipated shows from Carolina Herrera, Anna Sui, and Proenza Schouler to present collections that were highly diverse, yet marked by bright colours and prints. Optimism and femininity
+                    often set the tone at the shows, while much-noted model Gigi Hadid caused a sensation at Proenza Schouler.</p>
+
+                <div class="card-1-btn">
+                    <button onclick="likeBtn(2)" class="left-btn"> <span><i class="fas fa-thumbs-up"></i></span>Like</button>
+                    <button onclick="displayReplies(2)" id="right-btn">Replies<span>3</span></button>
+                </div>
+                <div style="height: 450px; display: none" class="replies">
+                    <hr>
+                    <div style="float: left; margin-top: 16px;">
+
+                        <div class="replies-img"><img src="Image/ProfilePic/girl_mountain.jpg" alt="girl_mountain"></div>
+
+                        <div class="replies-text">
+                            <h4>Jane <span>April 10, 2015, 7:22 PM</span></h4>
+                            <p>That was a great runway show! Thanks for everything.</p>
+                        </div>
+
+                    </div>
+
+                    <div style="float: left; margin-top: 16px;">
+
+                        <div class="replies-img"><img src="Image/ProfilePic/boy.jpg" alt="boy"></div>
+
+                        <div class="replies-text">
+                            <h4>John <span>April 8, 2015, 10:32 PM</span></h4>
+                            <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+
+                    </div>
+                    <div style="float: left; margin-top: 16px;">
+
+                        <div class="replies-img"><img src="Image/ProfilePic/girl_hood.jpg" alt="girl_hood"></div>
+
+                        <div class="replies-text">
+                            <h4>Anja <span>April 7, 2015, 9:12 PM</span></h4>
+                            <p>Cant wait for the runway to start!</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right-blog-content">
+            <div class="__n">
+                <img src="Image/Cover/avatar_girl2.jpg" alt="avatar_girl2">
+                <div class="text">
+                    <h4>My Name</h4>
+                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="Popular-Posts">
+                <div class="Popular-Posts-header">
+                    <h4>Popular Posts</h4>
+                </div>
+                <ul>
+                    <li>
+                        <img src="Image/ProfilePic/avatar_smoke.jpg" alt="avatar_smoke">
+                        <div class="list-contint">
+                            <span class="text-1">Denim</span>
+                            <span class="text-2">Sed mattis nunc</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Image/ProfilePic/bandmember.jpg" alt="bandmember">
+                        <div class="list-contint">
+                            <span class="text-1">Sweaters</span>
+                            <span class="text-2">Praes tinci sed</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Image/ProfilePic/workshop.jpg" alt="workshop">
+                        <div class="list-contint">
+                            <span class="text-1">Workshop</span>
+                            <span class="text-2">Ultricies congue</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="Image/ProfilePic/avatar_smoke.jpg" alt="avatar_smoke">
+                        <div class="list-contint">
+                            <span class="text-1">Trends</span>
+                            <span class="text-2">Lorem ipsum dipsum</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="tags">
+
+                <div class="tags-header">
+                    <h4>Tags</h4>
+                </div>
+
+                <div class="tag-text">
+                    <span>Fashion</span>
+                    <span>New York</span>
+                    <span>London</span>
+                    <span>Hats</span>
+                    <span>Norway</span>
+                    <span>Sweaters</span>
+                    <span>Ideas</span>
+                    <span>Deals</span>
+                    <span>Accessories</span>
+                    <span>News</span>
+                    <span>Clothing</span>
+                    <span>Shopping</span>
+                    <span>Jeans</span>
+                    <span>Trends</span>
+                </div>
+
+            </div>
+            <hr>
+            <div class="inspiration">
+
+                <div class="inspiration-header">
+                    <h4>Inspiration</h4>
+                </div>
+
+                <div class="inspiration-img">
+                    <img src="Image/Inspiration/jeans.jpg" alt="jeans">
+                </div>
+
+                <div class="inspiration-img">
+                    <img src="Image/Inspiration/avatar_hat.jpg" alt="avatar_hat">
+                </div>
+
+                <div class="inspiration-img">
+                    <img src="Image/Inspiration/team1.jpg" alt="team1">
+                </div>
+
+                <div class="inspiration-img">
+                    <img src="Image/Inspiration/team4.jpg" alt="team4">
+                </div>
+
+            </div>
+
+            <hr>
+            <div class="follow-me">
+                <div class="follow-me-header">
+                    <h4>Follow Me</h4>
+                </div>
+
+                <div class="social-media">
+                    <span><i class="fab fa-facebook-square"></i></span>
+                    <span><i class="fab fa-instagram"></i></span>
+                    <span><i class="fab fa-snapchat"></i></span>
+                    <span><i class="fab fa-pinterest-p"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                    <span><i class="fab fa-linkedin-in"></i></span>
+                </div>
+
+            </div>
+
+            <hr>
+            <div class="subscribe">
+                <div class="subscribe-header">
+                    <h4>Subscribe</h4>
+                </div>
+
+                <div class="subscribe-contener">
+                    <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                    <input type="email" placeholder="Enter e-mail">
+                    <button type="button">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div onclick="closeBlock()" id="background-block"></div>
+        <div id="subscribe-block">
+            <div class="subscribe-block-header">
+                <h4>SUBSCRIBE</h4>
+                <span onclick="closeBlock()"><i class="fas fa-times"></i></span>
+            </div>
+            <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+            <input type="email" placeholder="Enter e-mail">
+            <button type="button">Subscribe</button>
+        </div>
+
+    </section>
+
+    <div id="bottom">
+        <button id="top-Btn"><span><i class="fas fa-arrow-up"></i></span>To the top</button>
+    </div>
+
+    <script>
+        var replies = document.getElementsByClassName("replies");
+
+        function displayReplies(y) {
+            if (replies[y].style.display == "block") {
+                replies[y].style.display = "none";
+            } else {
+                replies[y].style.display = "block";
+            }
+        }
+        //*******************************************
+        var like_Btn = document.getElementsByClassName("left-btn");
+
+        function likeBtn(x) {
+            like_Btn[x].textContent = "✓ Liked";
+            like_Btn[x].style.fontWeight = "bold";
+        }
+        //*******************************************
+        var backgroundBlock = document.querySelector("#background-block");
+        var subscribeBlock = document.querySelector("#subscribe-block");
+        var subscribeBtn = document.querySelector("#SUBSCRIBE");
+
+        subscribeBtn.onclick = function() {
+            subscribeBlock.style.display = "block";
+            backgroundBlock.style.display = "block";
+        };
+
+        function closeBlock() {
+            subscribeBlock.style.display = "none";
+            backgroundBlock.style.display = "none";
+        }
+        //*******************************************
+        document.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                subscribeBlock.style.display = "none";
+                backgroundBlock.style.display = "none";
+            }
+        });
+        //*******************************************
+        var topBtn = document.querySelector("#top-Btn");
+
+        topBtn.onclick = function() {
+            window.scroll(0, 0);
+        };
+    </script>
+
+</body>
+
+</html>

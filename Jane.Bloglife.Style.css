@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald"
+}
+
+.right-blog-content hr {
+    border-top: 1px solid #EEEEEE;
+    margin: 20px 0;
+}
+
+body {
+    font-family: "Open Sans";
+    background-color: #F1F1F1;
+}
+
+.links {
+    width: 100%;
+    height: 38px;
+    background-color: black;
+}
+
+.links span {
+    float: left;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    color: white;
+    padding: 11px 16px;
+    font-size: 15px;
+}
+
+.links span:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+}
+
+.links .search {
+    height: 100%;
+    float: right;
+    top: 0px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 222px;
+    padding: 48px 16px;
+}
+
+header h1,
+h6 {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+header h6 {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+header h6 span {
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+}
+
+.image-content {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-width: 550px;
+    display: block;
+    padding: 12px 24px;
+    color: white;
+}
+
+.image-content h1 {
+    font-size: 36px;
+}
+
+.image-content B {
+    font-size: 64px;
+    font-weight: 600;
+    width: auto;
+    height: auto;
+}
+
+.image-content div {
+    margin: 10px 0;
+}
+
+.image-content button {
+    padding: 12px 24px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    outline: none;
+    opacity: .6;
+    background: lightgrey;
+    display: inline-block;
+    font-family: "Oswald";
+    font-size: 18px;
+}
+
+.image-content button:hover {
+    cursor: pointer;
+    opacity: .8;
+    background-color: #CCCCCC;
+}
+
+#blog-content {
+    width: 100%;
+    height: auto;
+}
+
+#blog-content .left-blog-content {
+    width: 876px;
+    height: auto;
+    padding: 10px;
+    position: sticky;
+    float: left;
+}
+
+#blog-content .left-blog-content .card {
+    background-color: white;
+    padding: 12px 25px;
+    margin: 16px;
+    display: block;
+    width: 845px;
+    margin: 16px;
+}
+
+#blog-content .left-blog-content .card h3,
+#blog-content .left-blog-content .card h5 {
+    text-align: center;
+    font-weight: 100;
+}
+
+#blog-content .left-blog-content .card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#blog-content .left-blog-content .card h5 {
+    font-size: 18px;
+}
+
+#blog-content .left-blog-content .card h5 span {
+    width: auto;
+    height: auto;
+    color: gray;
+}
+
+#blog-content .left-blog-content .card img {
+    width: 100%;
+    height: 500px;
+    margin: 25px 0;
+    display: block;
+}
+
+#blog-content .left-blog-content .paragraph-1 {
+    padding: 10px 0;
+    font-size: 15px;
+    display: block;
+}
+
+#blog-content .left-blog-content .paragraph-2 {
+    padding: 10px 0;
+    font-size: 15px;
+    display: block;
+}
+
+#blog-content .left-blog-content .card-1-btn {
+    padding: 15px 0;
+}
+
+#blog-content .left-blog-content .card-1-btn .left-btn {
+    padding: 8px 16px;
+    font-weight: initial;
+    height: 40px;
+    width: 100%px;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    display: inline-block;
+}
+
+#blog-content .left-blog-content .card-1-btn .left-btn span {
+    margin-right: 5px;
+}
+
+#blog-content .left-blog-content .card-1-btn .left-btn:hover {
+    background-color: lightgray;
+}
+
+#blog-content .left-blog-content .card-1-btn #right-btn {
+    padding: 8px 16px;
+    font-weight: 600;
+    position: sticky;
+    left: 100%;
+    height: 38;
+    width: 118px;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    color: white;
+    display: inline-block;
+    background-color: black;
+    border: none;
+}
+
+#blog-content .left-blog-content .card-1-btn #right-btn:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+#blog-content .left-blog-content .card-1-btn #right-btn span {
+    color: black;
+    background-color: white;
+    padding: 2px 8px;
+    display: inline-block;
+    height: 22px;
+    width: 25px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#blog-content .left-blog-content .replies hr {
+    margin-bottom: 40px;
+    border-top: 1px solid #EEEEEE;
+}
+
+#blog-content .left-blog-content .replies {
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 25px;
+    position: sticky;
+}
+
+#blog-content .left-blog-content .replies .replies-img {
+    width: 133px;
+    float: left;
+    height: 100px;
+}
+
+#blog-content .left-blog-content .replies-img img {
+    max-width: 90px;
+    position: relative;
+    top: -25px;
+    height: auto;
+}
+
+#blog-content .left-blog-content .replies .replies-text {
+    width: 650px;
+    height: auto;
+    float: left;
+}
+
+#blog-content .left-blog-content .replies .replies-text h4 {
+    font-size: 20px;
+    height: 30px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+#blog-content .left-blog-content .replies .replies-text h4 span {
+    font-size: 15px;
+    font-weight: 100;
+    color: #616161;
+}
+
+#blog-content .left-blog-content .replies .replies-text p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.right-blog-content {
+    width: 440px;
+    position: sticky;
+    left: 100%;
+    height: auto;
+    float: left;
+    padding: 25px 0px;
+}
+
+.right-blog-content img {
+    width: 410px;
+    height: 220px;
+    display: block;
+}
+
+.right-blog-content .__n {
+    width: 410px;
+    height: auto;
+    background-color: black;
+}
+
+.right-blog-content .__n .text {
+    padding: 0 16px;
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+
+.right-blog-content .__n .text h4 {
+    color: white;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.right-blog-content .__n .text p {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0;
+    font-weight: 100;
+}
+
+.right-blog-content .Popular-Posts {
+    width: 410px;
+    height: auto;
+}
+
+.right-blog-content .Popular-Posts ul {
+    list-style: none;
+    background-color: white;
+}
+
+.right-blog-content .Popular-Posts ul li {
+    padding: 16px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.right-blog-content .Popular-Posts ul li:hover {
+    background-color: #CCCCCC;
+}
+
+.right-blog-content .Popular-Posts .Popular-Posts-header {
+    padding: 16px;
+    background-color: black;
+}
+
+.right-blog-content .Popular-Posts .Popular-Posts-header h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.right-blog-content .Popular-Posts ul li img {
+    width: 50px;
+    height: 55px;
+    display: inline-block;
+}
+
+.right-blog-content .Popular-Posts ul li .list-contint {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    bottom: 10px;
+    padding: 0px 10px;
+}
+
+.right-blog-content .Popular-Posts ul li .list-contint span {
+    display: block;
+}
+
+.right-blog-content .Popular-Posts ul li .list-contint .text-1 {
+    font-size: 18px;
+}
+
+.right-blog-content .Popular-Posts ul li .list-contint .text-2 {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.right-blog-content .tags {
+    width: 410px;
+    height: auto;
+    background-color: white;
+}
+
+.right-blog-content .tags .tags-header {
+    background-color: black;
+    padding: 16px;
+    display: block;
+}
+
+.right-blog-content .tags .tags-header h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.right-blog-content .tags .tag-text {
+    padding: 0px 16px;
+}
+
+.right-blog-content .tags .tag-text span {
+    background-color: lightgray;
+    font-size: 12px;
+    padding: 0 8px;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+.right-blog-content .inspiration {
+    width: 410px;
+    height: auto;
+    background-color: white;
+}
+
+.right-blog-content .inspiration .inspiration-header {
+    padding: 16px;
+    background-color: black;
+}
+
+.right-blog-content .inspiration .inspiration-header h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.right-blog-content .inspiration .inspiration-img {
+    width: 200px;
+    padding: 16px;
+    display: inline-block;
+}
+
+.right-blog-content .inspiration .inspiration-img img {
+    width: 180px;
+    height: 120px;
+}
+
+.right-blog-content .follow-me {
+    width: 410px;
+    height: auto;
+    background-color: white;
+}
+
+.right-blog-content .follow-me .follow-me-header {
+    background-color: black;
+    padding: 16px;
+    display: block;
+}
+
+.right-blog-content .follow-me .follow-me-header h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.right-blog-content .follow-me .social-media {
+    padding: 0 16px;
+}
+
+.right-blog-content .follow-me .social-media span {
+    font-size: 24px;
+    margin: 15px 5px 15px 0;
+    display: inline-block;
+}
+
+.right-blog-content .follow-me .social-media span:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.right-blog-content .subscribe {
+    width: 410px;
+    height: auto;
+    background-color: white;
+}
+
+.right-blog-content .subscribe .subscribe-header {
+    padding: 16px;
+    background-color: black;
+    display: block;
+}
+
+.right-blog-content .subscribe .subscribe-header h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.right-blog-content .subscribe .subscribe-contener {
+    padding: 0 16px;
+}
+
+.right-blog-content .subscribe .subscribe-contener p {
+    font-size: 15px;
+    margin: 15px 0;
+    display: block;
+}
+
+.right-blog-content .subscribe .subscribe-contener input {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+}
+
+.right-blog-content .subscribe .subscribe-contener button,
+#subscribe-block button {
+    width: 100%;
+    height: 45px;
+    margin: 15px 0;
+    background-color: #fa5b3d;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+.right-blog-content .subscribe .subscribe-contener button:hover,
+#subscribe-block button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+#subscribe-block {
+    padding: 40px;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    display: none;
+    width: 900px;
+    height: 290px;
+    background-color: white;
+    animation-name: display-block;
+    animation-duration: 1.25s;
+}
+
+@keyframes display-block {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#subscribe-block .subscribe-block-header h4 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#subscribe-block .subscribe-block-header span {
+    display: inline-block;
+    position: sticky;
+    left: 100%;
+    font-size: 24px;
+    width: 50px;
+    height: 40px;
+    font-weight: 100;
+    padding: 8px 16px;
+}
+
+#subscribe-block .subscribe-block-header span:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#subscribe-block p {
+    font-size: 15px;
+    margin: 15px 0;
+    display: block;
+}
+
+#subscribe-block input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+    font-size: 15px;
+}
+
+#background-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#bottom {
+    background-color: #616161;
+    width: 100%;
+    height: 178px;
+    display: inline-table;
+    padding: 32px;
+}
+
+#bottom button {
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    display: block;
+    outline: none;
+}
+
+#bottom button:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+#bottom button span {
+    margin-right: 20px;
+}
